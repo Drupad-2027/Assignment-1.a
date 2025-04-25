@@ -1,0 +1,18 @@
+/* Sidebar */
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    #wrapper {
+      flex-direction: column;
+    }
+  
+    #sidebar {
+      width: 100%;
+      min-height: auto;
+    }
+  }
+  
